@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0ffff;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+}
+.container div {
+  overflow: hidden;
+}
+.container > div {
+  border-radius: 50%;
+  background-color: #ff0000;
+  height: 400px;
+  margin: 10px;
+}
+.container > div > div {
+  border-radius: 50%;
+  background-color: #ff6100;
+  height: 380px;
+  margin: 10px;
+}
+.container > div > div > div {
+  border-radius: 50%;
+  background-color: #ffff00;
+  height: 360px;
+  margin: 10px;
+}
+.container > div > div > div > div {
+  border-radius: 50%;
+  background-color: #00ff00;
+  height: 340px;
+  margin: 10px;
+}
+.container > div > div > div > div > div {
+  border-radius: 50%;
+  background-color: #00ffff;
+  height: 320px;
+  margin: 10px;
+}
+.container > div > div > div > div > div > div {
+  border-radius: 50%;
+  background-color: #0000ff;
+  height: 300px;
+  margin: 10px;
+}
+.container > div > div > div > div > div > div > div {
+  border-radius: 50%;
+  background-color: #a020f0;
+  height: 280px;
+  margin: 10px;
+}
+.container > div > div > div > div > div > div > div > div {
+  border-radius: 50%;
+  background-color: #f0ffff;
+  height: 260px;
+  margin: 10px;
+}
